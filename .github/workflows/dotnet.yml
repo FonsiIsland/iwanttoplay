@@ -21,4 +21,4 @@ jobs:
       with:
         dotnet-version: 6.0.100-preview.1.21103.13
     - name: Build with dotnet
-      run: dotnet build --configuartion Release
+      run: dotnet build --configuration Release
